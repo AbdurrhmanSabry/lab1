@@ -1,0 +1,15 @@
+1-sudo yum install git-all
+2-git config global user.name "Muhammed Gamal"
+3-git config user.email muhammedgamal760@gmail.com
+4-mkdir lab1
+5-cd lab1
+6-git init
+7-touch file1
+8-git add file1 >> to transfer file from working directory to stage
+9-git commit -m "file1 created" >> to transfer file1 from stage to local repo
+10-git remote add origin ssh-url
+11-git branch -M main
+12-ssh-keygen -t rsa -b 4096 -C "muhammedgamal760@gmail.com"
+13-cat path of public key
+14-new ssh key from github
+15-git push origin main
